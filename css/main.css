@@ -76,13 +76,9 @@ h1 {
 }
 
 .new-almond {
-  width: 90%;
+  width: 80%;
   float: left;
-  margin-left: 1rem;
-}
-
-.new-matcha {
-  width: 45%;
+  margin-left: 1.9rem;
 }
 
 .matcha div {
@@ -94,7 +90,7 @@ h1 {
 }
 
 .new-matcha {
-  width: 90%;
+  width: 80%;
   float: left;
-  margin-left: 1rem;
+  margin-left: 1.9rem;
 }
