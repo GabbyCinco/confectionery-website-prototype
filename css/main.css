@@ -60,7 +60,7 @@ header a {
   display: none;
 }
 
-.new h2 {
+h2 {
   margin: 1.5em 0 0 .3em;
   font-size: 1.5em;
 }
@@ -71,44 +71,51 @@ header a {
 }
 
 .new p {
-  margin: .2em 0 1.5em;
+  margin: 1em 0;
 }
 
 .almond {
   background-color: grey;
   padding: 1em 0;
-  margin: .7em;
+  margin: .7em 1em;
 }
 
-.almond div {
+.almond figcaption {
   width: 80%;
-  margin-left: 2.8em;
+  margin-left: 1.9em;
   font-size: 100%;
   line-height: 1.3;
 }
 
 .new-almond {
   width: 80%;
-  float: left;
   margin-left: 1.9rem;
 }
 
-.matcha div {
-  text-align: center;
-  width: 75%;
-  margin-left: 2.3em;
+.matcha {
+  background-color: grey;
+  padding: 1em 0;
+  margin: .7em 1em;
+}
+
+.matcha figcaption {
+  width: 80%;
+  margin: 0 1.9em;
   font-size: 100%;
   line-height: 1.3;
 }
 
+.matcha h3 {
+  text-align: center;
+}
+
 .new-matcha {
   width: 80%;
-  float: left;
   margin-left: 1.9rem;
 }
 
 .locations {
-  margin-top: 3.6em;
+  margin: 3.6em 0 3em;
 }
 
 .locations p {
