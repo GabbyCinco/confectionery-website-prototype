@@ -56,12 +56,12 @@ header a {
 }
 
 .chocolatier img {
-  width: 100%
+  width: 100%;
 }
 
 .new h2 {
-  margin: 1.5em 0 .3em .7em;
-  font-size: 2.3em;
+  margin: 1.5em 0 0 .3em;
+  font-size: 1.5em;
 }
 
 .new h3 {
@@ -71,6 +71,12 @@ header a {
 
 .new p {
   margin: .2em 0 1.5em;
+}
+
+.almond {
+  background-color: grey;
+  padding: 1em 0;
+  margin: .7em;
 }
 
 .almond div {
