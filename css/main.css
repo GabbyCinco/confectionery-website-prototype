@@ -57,6 +57,7 @@ header a {
 
 .chocolatier img {
   width: 100%;
+  display: none;
 }
 
 .new h2 {
