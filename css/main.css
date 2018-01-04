@@ -114,6 +114,29 @@ h2 {
   margin-left: 1.9rem;
 }
 
+.hours h2 {
+  margin-top: 2em;
+}
+
+.hrs dl {
+margin-left: 1.5em;
+padding: 1em 0;
+background-color: #e2e2e2;
+width: 78%;
+}
+
+.hrs dt {
+  float: left;
+  width: 38%;
+  padding: 0 1.6em;
+  line-height: 1.18;
+}
+
+.hrs dd {
+  width: 70%;
+  margin-left: 8em;
+}
+
 .locations {
   margin: 3.6em 0 3em;
 }
@@ -136,29 +159,6 @@ h2 {
 .map {
   width: 95%;
   margin-left: .5em;
-}
-
-.hours h2 {
-  margin-top: 2em;
-}
-
-.hrs dl {
-margin-left: 1.5em;
-padding: 1em 0;
-background-color: #e2e2e2;
-width: 78%;
-}
-
-.hrs dt {
-  float: left;
-  width: 38%;
-  padding: 0 1.6em;
-  line-height: 1.18;
-}
-
-.hrs dd {
-  width: 70%;
-  margin-left: 8em;
 }
 
 footer {
