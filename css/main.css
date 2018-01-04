@@ -94,3 +94,23 @@ h1 {
   float: left;
   margin-left: 1.9rem;
 }
+
+.locations p {
+  display: inline-block;
+  width: 56%;
+  margin-left: 1.2em;
+  font-size: 1.07em;
+}
+
+.locations ul {
+  list-style-type: none;
+  text-align: right;
+  float: right;
+  margin-right: 1.6em;
+  padding: 0;
+}
+
+.map {
+  width: 95%;
+  margin-left: .5em;
+}
