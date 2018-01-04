@@ -29,7 +29,7 @@ body {
 
 main {
   background-color: grey;
-  padding: 1.2rem 0 1.3rem;
+  padding: 1.2rem .2rem 1.3rem;
 }
 
 h1 {
@@ -50,6 +50,14 @@ header li {
   display: block;
   float: left;
   width: 33.333%;
+  padding: .3rem;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+header li:hover {
+  background-color: #000;
 }
 
 header a {
