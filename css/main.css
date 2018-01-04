@@ -28,7 +28,7 @@ body {
 }
 
 main {
-  background-color: #e2e2e2;
+  background-color: grey;
   padding-top: 1.2rem;
 }
 
@@ -52,6 +52,7 @@ header li {
 
 header a {
   text-decoration: none;
+  color: #fff;
 }
 
 .chocolatier img {
@@ -147,5 +148,14 @@ width: 78%;
 }
 
 footer {
-  background-color: #e2e2e2;
+  background-color: grey;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
