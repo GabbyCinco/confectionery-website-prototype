@@ -145,22 +145,9 @@ h2 {
   list-style-type: none;
 }
 
-.sets div {
+.sets figure {
   margin: 0;
-}
-
-.sets a {
-  text-decoration: none;
-}
-
-.sets {
-  position: relative;
-}
-
-.boxes-text .boxes-btn {
-  position: absolute;
-  left: 3em;
-  bottom: 0;
+  width: 100%;
 }
 
 .hours {
