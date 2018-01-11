@@ -120,7 +120,6 @@ h2 {
 }
 
 .almond h3 {
-  text-align: center;
   text-decoration: none;
 }
 
@@ -159,10 +158,6 @@ h2 {
 
 .matcha-btn:hover {
   border-color: #000;
-}
-
-.matcha h3 {
-  text-align: center;
 }
 
 .new-matcha {
@@ -288,5 +283,17 @@ footer a {
 
   .matcha {
     max-width: 30em;
+  }
+
+.hrs dl {
+  margin: 0 1em;
+}
+
+.hrs dt {
+  margin-left: 3em;
+}
+
+  .hrs dd {
+  margin-left: 6em;
   }
 }
