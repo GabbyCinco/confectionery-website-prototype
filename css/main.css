@@ -278,7 +278,6 @@ footer a {
 
   .almond {
     max-width: 30em;
-    margin:
   }
 
   .matcha {
@@ -296,4 +295,14 @@ footer a {
   .hrs dd {
   margin-left: 6em;
   }
+
+
+  .locations h2 {
+    margin-left: .4em;
+  }
+
+  .locate p {
+    font-weight: bold;
+  }
+
 }
