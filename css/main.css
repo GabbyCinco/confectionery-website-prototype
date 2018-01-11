@@ -99,7 +99,7 @@ h2 {
   background-color: grey;
   padding: 1em 0;
   margin: 1em;
-  max-width: 20em;
+  width: 20em;
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
@@ -345,12 +345,20 @@ small {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    -moz-text-size-adjust: 110%;
+    -ms-text-size-adjust: 110%;
+    -webkit-text-size-adjust: 110%;
+    text-size-adjust: 110%;
+    line-height: 1.4;
+  }
+
   .almond {
-    max-width: 30em;
+    width: 22em;
   }
 
   .matcha {
-    max-width: 30em;
+    max-width: 22em;
   }
 
   .hrs dl {
@@ -372,5 +380,7 @@ small {
 
 @media only screen and (min-width: 38em) {
 
-
+  .new figure {
+    width: 50em;
+  }
 }
