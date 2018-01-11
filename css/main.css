@@ -180,7 +180,7 @@ h2 {
 
 .sets figure {
   margin: 0 1.5rem;
-  min-width: 85%;
+  width: 85%;
 }
 
 .sets figcaption {
@@ -211,6 +211,7 @@ h2 {
 
 .boxes-text li:hover {
   border-color: #000;
+  background-color: #000;
 }
 
 .sets a {
@@ -240,6 +241,7 @@ h2 {
 
 .gifts-text li:hover {
   border-color: #000;
+  background-color: #000;
 }
 
 footer a {
@@ -416,9 +418,52 @@ small {
   }
 
   .new figure {
-    width: 14em;
-    display: inline-block;
+    width: 94%;
   }
 
+  .new-almond {
+    position: relative;
+  }
 
+  .almond h3 {
+    position: absolute;
+    bottom: -5em;
+    left: 2em;
+    font-size: 1.7em;
+  }
+
+  .new-matcha {
+    position: relative;
+  }
+
+  .matcha h3 {
+    position: absolute;
+    bottom: -25em;
+    left: 3.4em;
+    font-size: 1.7em;
+  }
+
+  .sets figure {
+    width: 91%;
+    display: inline-block;
+    height: 27em;
+  }
+
+  .boxes-text ul {
+    text-align: left;
+  }
+
+  .boxes-text li {
+    font-size: 1.1em;
+    margin: .2rem;
+  }
+
+  .gifts-text ul {
+    text-align: left;
+  }
+
+  .gifts-text li {
+    font-size: 1.1em;
+    margin: .2rem;
+  }
 }
