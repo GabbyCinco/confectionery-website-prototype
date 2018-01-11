@@ -248,6 +248,7 @@ span a:hover {
 
 .locations p {
   display: inline-block;
+  font-weight: bold;
   width: 56%;
   margin-left: 1.2em;
   font-size: 1.07em;
@@ -309,9 +310,18 @@ small {
   .locations h2 {
     margin-left: .4em;
   }
+}
 
-  .locate p {
-    font-weight: bold;
+@media only screen and (min-width: 38em) {
+
+  .chocolatier img {
+    display: block;
+    padding-bottom: 2em;
   }
 
+  .new figure {
+    display: inline-block;
+    width: 14em;
+    vertical-align: center
+  }
 }
