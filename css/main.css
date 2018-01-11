@@ -175,7 +175,7 @@ h2 {
 }
 
 .sets h2 {
-  margin-bottom:
+  margin-bottom: .5rem;
 }
 
 .sets figure {
@@ -361,8 +361,30 @@ small {
     width: 20em;
   }
 
+  .new-almond {
+    position: relative;
+  }
+
+  .almond h3 {
+    position: absolute;
+    bottom: 19.5em;
+    left: 3.6em;
+    font-size: 1.01em;
+  }
+
   .matcha {
     width: 20em;
+  }
+
+  .new-matcha {
+    position: relative;
+  }
+
+  .matcha h3 {
+    position: absolute;
+    bottom: -5em;
+    left: 6.4em;
+    font-size: 1.01em;
   }
 
   .hrs dl {
