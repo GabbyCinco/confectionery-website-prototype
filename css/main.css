@@ -356,7 +356,7 @@ small {
 @media only screen and (min-width: 25em) {
 
   html {
-    font: normal 110%/1.3 Georgia, serif;
+    font: normal 100%/1.3 Georgia, serif;
   }
 
   .new figure {
@@ -406,7 +406,7 @@ small {
 @media only screen and (min-width: 38em) {
 
   html {
-
+  font: normal 110%/1.4 Georgia, serif;
   }
 
   header li {
@@ -418,7 +418,8 @@ small {
   }
 
   .new figure {
-    width: 94%;
+    width: 80%;
+    margin-left: 3em;
   }
 
   .new-almond {
@@ -427,9 +428,9 @@ small {
 
   .almond h3 {
     position: absolute;
-    bottom: -5em;
-    left: 2em;
-    font-size: 1.7em;
+    bottom: -4em;
+    left: 5em;
+    font-size: 1.3em;
   }
 
   .new-matcha {
@@ -438,13 +439,14 @@ small {
 
   .matcha h3 {
     position: absolute;
-    bottom: -25em;
-    left: 3.4em;
-    font-size: 1.7em;
+    bottom: -27.2em;
+    left: 6em;
+    font-size: 1.3em;
   }
 
   .sets figure {
-    width: 91%;
+    width: 74%;
+    margin-left: 4.2em;
     display: inline-block;
     height: 27em;
   }
@@ -454,7 +456,7 @@ small {
   }
 
   .boxes-text li {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: .2rem;
   }
 
@@ -463,7 +465,22 @@ small {
   }
 
   .gifts-text li {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: .2rem;
   }
+
+  .hours dt {
+    width: 50%;
+    margin-left: 3.1em;
+  }
+
+  .locations {
+    width: 67%
+  }
+}
+
+
+@media screen only and (min-width: 60em) {
+
+
 }
