@@ -93,7 +93,6 @@ h2 {
   padding: 1em 0;
   margin: 1em;
   max-width: 20em;
-  min-height: 23em;
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
@@ -161,9 +160,16 @@ h2 {
 
 span a {
   text-decoration: none;
-  padding: .5em 5em;
+  padding: .7em 7.5em;
   background-color: grey;
   color: #fff;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+span a:hover {
+  background-color: #000;
 }
 
 .hours {
@@ -175,10 +181,10 @@ span a {
 }
 
 .hrs dl {
-margin-left: 2em;
+margin: 1em;
 padding: 1em 0;
 background-color: #e2e2e2;
-width: 76%;
+min-width: 18em;
 }
 
 .hrs dt {
@@ -190,7 +196,7 @@ width: 76%;
 
 .hrs dd {
   width: 60%;
-  margin-left: 8em;
+  margin-left: 9em;
 }
 
 .locations {
@@ -217,7 +223,7 @@ width: 76%;
 }
 
 .map {
-  width: 95.3%;
+  width: 95%;
   margin-left: .5em;
 }
 
@@ -232,4 +238,16 @@ footer ul {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .almond {
+    max-width: 30em;
+    margin:
+  }
+
+  .matcha {
+    max-width: 30em;
+  }
 }
