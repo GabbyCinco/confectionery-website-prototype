@@ -105,6 +105,7 @@ h2 {
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
+  min-height: 25em;
 }
 
 .almond figcaption {
@@ -146,6 +147,7 @@ h2 {
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
+  min-height: 25em;
 
 }
 
@@ -470,8 +472,8 @@ small {
   }
 
   .hours dt {
-    width: 50%;
-    margin-left: 3.1em;
+    width: 45%;
+    margin-left: 3.2em;
   }
 
   .locations {
@@ -484,6 +486,16 @@ small {
 
   html {
     font: normal 120%/1.5 Goergia, serif;
+  }
+
+  h1 {
+    text-align: left;
+    padding: 0 1.5rem;
+    font-size: 3.4em;
+  }
+
+  header li {
+    width: 18%;
   }
 
   .charlotte {
@@ -501,8 +513,36 @@ small {
 
   .almond h3 {
     position: absolute;
-    bottom: -4em;
-    left: 5em;
-    font-size: 1.3em;
+    bottom: -11em;
+    left: 5.5em;
+    font-size: 1.1em;
+  }
+
+  .new-almond {
+    position: relative;
+  }
+
+  .matcha h3 {
+    position: absolute;
+    bottom: -11em;
+    left: 27em;
+    font-size: 1.1em;
+  }
+
+  .sets figure {
+    height: 33em;
+  }
+
+  .sets h2 {
+
+  }
+
+  .hrs {
+    width: 30%;
+    font-size: .7em;
+  }
+
+  .hrs dt {
+    margin-left:
   }
 }
