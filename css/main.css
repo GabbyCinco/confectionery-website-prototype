@@ -12,6 +12,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Georgia, serif;
+  font-size: 1em;
 }
 
 *, *::before, *::after {
@@ -285,14 +286,20 @@ span a:hover {
   padding: 0 0 1em;
 }
 
+.charlotte {
+  width: 85%;
+  text-align: center;
+  margin-left: 1.5em;
+}
+
 .locations h2 {
   margin: .2em 0 .6em;
 }
 
 .locations p {
   display: inline-block;
-  font-weight: bold;
-  width: 56%;
+  font-size: .5em;
+  width: 50%;
   margin-left: 1.2em;
   font-size: 1.07em;
 }
@@ -414,5 +421,6 @@ small {
     vertical-align: center
     margin: .5em;
   }
+
 
 }
