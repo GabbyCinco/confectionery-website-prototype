@@ -373,6 +373,20 @@ small {
   .locations h2 {
     margin-left: .4em;
   }
+
+  .charlotte {
+    width: 30%;
+    display: inline;
+  }
+
+  .contact-us {
+    background-color: #e2e2e2;
+  }
+
+  .contact-wrap {
+    width: 20em;
+    font-size: .8em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
