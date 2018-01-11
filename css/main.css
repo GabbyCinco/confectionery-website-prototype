@@ -139,7 +139,7 @@ h2 {
   background-color: grey;
   padding: 1em 0;
   margin: 1em;
-  max-width: 20em;
+  width: 20em;
   min-height: 25em;
   border-style: solid;
   border-width: 0;
@@ -358,7 +358,7 @@ small {
   }
 
   .matcha {
-    max-width: 22em;
+    width: 22em;
   }
 
   .hrs dl {
@@ -380,7 +380,43 @@ small {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    -moz-text-size-adjust: 120%;
+    -ms-text-size-adjust: 120%;
+    -webkit-text-size-adjust: 120%;
+    text-size-adjust: 120%;
+  }
+
+  header li {
+    padding: .2rem;
+  }
+
+  .chocolatier img {
+    display: block;
+  }
+
   .new figure {
-    width: 50em;
+    width: 16.4em;
+    display: inline-block;
+    vertical-align: center
+    margin: .5em;
+  }
+
+  .sets figure {
+    width: 15em;
+    display: inline-block;
+    vertical-align: center
+  }
+
+  .locations {
+    padding: 0 0 7em;
+  }
+
+  .map {
+    position: relative;
+  }
+
+  .locate p {
+    position: absolute;
   }
 }
