@@ -172,6 +172,10 @@ h2 {
   margin-left: 1.9rem;
 }
 
+.sets h2 {
+  margin-bottom:
+}
+
 .sets figure {
   margin: 0 1.5rem;
   min-width: 85%;
@@ -182,24 +186,58 @@ h2 {
   margin-bottom: 4rem;
 }
 
-.boxes-btn {
-  text-decoration: none;
-  padding: .7em 7em;
+
+.boxes {
   background-color: grey;
-  color: #fff;
-  border-style: solid;
-  border-width: 0;
-  border-radius: 4px;
+  padding: .3em .7em;
 }
 
-.gifts-btn {
-  text-decoration: none;
-  padding: .7em 7em;
-  background-color: grey;
-  color: #fff;
+.boxes-text ul {
+  padding: 0;
+  margin: .3em 0 1.5em;
+  text-align: center;
+}
+
+.boxes-text li {
+  display: inline-block;
+  padding: .5rem .6rem;
   border-style: solid;
-  border-width: 0;
+  border-width: 2px;
   border-radius: 4px;
+  color: #fff;
+}
+
+.boxes-text li:hover {
+  border-color: #000;
+}
+
+.sets a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.gifts {
+  background-color: grey;
+  padding: .3em .7em;
+}
+
+.gifts-text ul {
+  padding: 0;
+  margin: .3em 0 1.5em;
+  text-align: center;
+}
+
+.gifts-text li {
+  display: inline-block;
+  padding: .5rem .6rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.gifts-text li:hover {
+  border-color: #000;
 }
 
 footer a {
@@ -334,14 +372,5 @@ small {
 
 @media only screen and (min-width: 38em) {
 
-  .chocolatier img {
-    display: block;
-    padding-bottom: 2em;
-  }
 
-  .new figure {
-    display: inline-block;
-    width: 14em;
-    vertical-align: center
-  }
 }
