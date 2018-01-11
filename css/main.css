@@ -105,8 +105,23 @@ h2 {
   line-height: 1.3;
 }
 
+.almond-btn {
+  text-decoration: none;
+  padding: .6em 1em;
+  margin: .5em 0;
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.almond-btn:hover {
+  border-color: #000;
+}
+
 .almond h3 {
   text-align: center;
+  text-decoration: none;
 }
 
 .new-almond {
@@ -123,6 +138,7 @@ h2 {
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
+
 }
 
 .matcha figcaption {
@@ -130,6 +146,19 @@ h2 {
   margin: 0 1.9em;
   font-size: 100%;
   line-height: 1.3;
+}
+
+.matcha-btn {
+  text-decoration: none;
+  padding: .6em 1em;
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.matcha-btn:hover {
+  border-color: #000;
 }
 
 .matcha h3 {
@@ -158,9 +187,19 @@ h2 {
   margin-bottom: 4rem;
 }
 
-span a {
+.boxes-btn {
   text-decoration: none;
-  padding: .7em 7.5em;
+  padding: .7em 7em;
+  background-color: grey;
+  color: #fff;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+.gifts-btn {
+  text-decoration: none;
+  padding: .7em 7em;
   background-color: grey;
   color: #fff;
   border-style: solid;
@@ -181,7 +220,7 @@ span a:hover {
 }
 
 .hrs dl {
-margin: 1em;
+margin: .5em 0;
 padding: 1em 0;
 background-color: #e2e2e2;
 min-width: 18em;
