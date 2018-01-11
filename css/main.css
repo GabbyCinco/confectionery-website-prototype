@@ -363,7 +363,7 @@ small {
   }
 
   .hrs dt {
-    margin-left: 3em;
+    margin-left: 2em;
   }
 
   .hrs dd {
@@ -372,6 +372,10 @@ small {
 
   .locations h2 {
     margin-left: .4em;
+  }
+
+  .locate p {
+    font-size: .9em;
   }
 
   .charlotte {
@@ -385,7 +389,8 @@ small {
 
   .contact-wrap {
     width: 20em;
-    font-size: .8em;
+    font-size: .9em;
+    padding-top: 0;
   }
 }
 
