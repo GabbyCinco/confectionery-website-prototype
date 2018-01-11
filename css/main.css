@@ -378,7 +378,7 @@ small {
   }
 
   .hrs dd {
-    margin-left: 6em;
+    margin-left: 7em;
   }
 
   .locations h2 {
@@ -396,6 +396,7 @@ small {
 
   .contact-us {
     background-color: #e2e2e2;
+    text-align: center;
   }
 
   .contact-wrap {
