@@ -239,7 +239,11 @@ span a:hover {
 }
 
 .locations {
-  padding: 1em 0;
+  padding: 3em 0;
+}
+
+.locate {
+  padding: 0 0 1em;
 }
 
 .locations h2 {
@@ -271,6 +275,22 @@ footer ul {
 .map {
   width: 95%;
   margin-left: .5em;
+}
+
+.contact-wrap {
+  margin: 0;
+  padding: 1em;
+  background-color: #e2e2e2;
+  min-width: 18em;
+}
+
+.contact-us dt {
+  float: left;
+  line-height: 1.18;
+}
+
+.contact-us dd {
+  margin-left: 3em;;
 }
 
 footer {
