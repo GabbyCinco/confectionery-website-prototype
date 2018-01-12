@@ -101,7 +101,7 @@ h2 {
   background-color: grey;
   padding: 1em 0;
   margin: 1em;
-  width: 100%;
+  width: 89%;
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
@@ -142,7 +142,7 @@ h2 {
   background-color: grey;
   padding: 1em 0;
   margin: 1em;
-  width: 100%;
+  width: 89%;
   min-height: 25em;
   border-style: solid;
   border-width: 0;
@@ -265,7 +265,7 @@ span a:hover {
 
 .hrs dl {
   margin: .5em 0;
-  padding: 1em 0;
+  padding: 1em;
   background-color: #e2e2e2;
   min-width: 18em;
 }
@@ -273,13 +273,13 @@ span a:hover {
 .hrs dt {
   float: left;
   width: 38%;
-  padding: 0 1.6em;
+  padding: 0 1.6em 0 3em;
   line-height: 1.18;
 }
 
 .hrs dd {
   width: 60%;
-  margin-left: 9em;
+  margin-left: 10.7em;
 }
 
 .locations {
@@ -290,6 +290,10 @@ span a:hover {
   padding: 0 0 1em;
 }
 
+.contact-us {
+  background-color: #e2e2e2;
+}
+
 .charlotte {
   max-width: 85%;
   text-align: center;
@@ -297,7 +301,7 @@ span a:hover {
 }
 
 .locations h2 {
-  margin: .2em 0 .6em;
+  margin-bottom: .4em;
 }
 
 .locations p {
@@ -374,7 +378,7 @@ small {
   }
 
   .hrs dt {
-    margin-left: 2em;
+    margin-left: 3em;
   }
 
   .hrs dd {
