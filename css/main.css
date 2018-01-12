@@ -112,7 +112,6 @@ h2 {
   width: 80%;
   margin-left: 1.9em;
   font-size: 100%;
-  line-height: 1.3;
 }
 
 .almond-btn {
@@ -209,6 +208,7 @@ h2 {
   border-width: 2px;
   border-radius: 4px;
   color: #fff;
+  font-size: .9em;
 }
 
 .boxes-text li:hover {
