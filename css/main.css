@@ -495,7 +495,28 @@ small {
   }
 
   .locations {
-    width: 67%
+    width: 70%
+    margin: 0;
+  }
+
+  .locate {
+    width: 94%;
+    margin-left: 1.2em;
+  }
+
+  .contact-wrap {
+    padding-bottom: 1em;
+    margin-left: 9.8em;
+
+  }
+
+  .contact-wrap p {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact {
+    padding: 0;
   }
 }
 
