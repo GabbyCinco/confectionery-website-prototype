@@ -520,11 +520,11 @@ small {
   }
 }
 
-
 @media only screen and (min-width: 60em) {
 
   html {
     font: normal 120%/1.5 Goergia, serif;
+    vertical-align: middle;
   }
 
   h1 {
@@ -537,8 +537,8 @@ small {
     width: 18%;
   }
 
-  .charlotte {
-    width:
+  h2 {
+    padding-left: .2em;
   }
 
   .new figure {
@@ -569,19 +569,28 @@ small {
   }
 
   .sets figure {
-    height: 33em;
+    height: 43em;
+    padding: 0 3em 5em;
   }
 
-  .sets h2 {
-
+  .hours dl {
+    margin: auto;
+    font-size: 1.5em;
   }
 
   .hrs {
-    width: 30%;
+    width: 100%;
     font-size: .7em;
   }
 
   .hrs dt {
-    margin-left:
+    margin-left: auto;
+    padding-left: 1em;
+    display: inline-block;
+  }
+
+  .hrs dd {
+    margin: 0 20em 0 6em;
+    text-align: left;
   }
 }
