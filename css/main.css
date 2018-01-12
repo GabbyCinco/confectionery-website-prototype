@@ -65,6 +65,25 @@ header li {
   list-style-type: none;
 }
 
+.boxes-text li {
+  display: inline-block;
+  padding: .5rem .6rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .9em;
+}
+
+.gifts-text li {
+  display: inline-block;
+  padding: .5rem .6rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  color: #fff;
+}
+
 header li:hover {
   background-color: #000;
 }
@@ -72,6 +91,20 @@ header li:hover {
 header a {
   text-decoration: none;
   color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sets a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  background-color: #000;
 }
 
 .chocolatier img {
@@ -146,8 +179,6 @@ h2 {
   border-style: solid;
   border-width: 0;
   border-radius: 10px;
-  min-height: 25em;
-
 }
 
 .matcha figcaption {
@@ -189,10 +220,15 @@ h2 {
   margin-bottom: 4rem;
 }
 
-
 .boxes {
   background-color: grey;
   padding: .3em .7em;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 1em;
+  margin: 0;
 }
 
 .boxes-text ul {
@@ -201,24 +237,13 @@ h2 {
   text-align: center;
 }
 
-.boxes-text li {
-  display: inline-block;
-  padding: .5rem .6rem;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  color: #fff;
-  font-size: .9em;
-}
-
 .boxes-text li:hover {
   border-color: #000;
   background-color: #000;
 }
 
-.sets a {
-  text-decoration: none;
-  color: #fff;
+footer a:hover {
+  color: yellow;
 }
 
 .gifts {
@@ -232,23 +257,9 @@ h2 {
   text-align: center;
 }
 
-.gifts-text li {
-  display: inline-block;
-  padding: .5rem .6rem;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  color: #fff;
-}
-
 .gifts-text li:hover {
   border-color: #000;
   background-color: #000;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
 }
 
 span a:hover {
@@ -309,13 +320,6 @@ span a:hover {
   font-size: .5em;
   width: 50%;
   margin-left: 1.2em;
-  font-size: 1.07em;
-}
-
-footer ul {
-  list-style-type: none;
-  padding: 1em;
-  margin: 0;
 }
 
 .locations ul {
@@ -344,15 +348,11 @@ footer ul {
 }
 
 .contact-us dd {
-  margin-left: 3em;;
+  margin-left: 3em;
 }
 
 footer {
   background-color: grey;
-}
-
-footer a:hover {
-  color: yellow;
 }
 
 small {
@@ -366,7 +366,7 @@ small {
   }
 
   .new figure {
-    width: 23em;;
+    width: 23em;
   }
 
   .matcha {
@@ -392,6 +392,7 @@ small {
   .charlotte {
     width: 30%;
     display: inline;
+    margin: 0;
   }
 
   .contact-us {
@@ -402,10 +403,6 @@ small {
   .contact-us h2 {
     margin: 0;
     text-align: center;
-  }
-
-  .charlotte {
-    margin: 0;
   }
 
   .contact-wrap {
@@ -426,8 +423,8 @@ small {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   header li {
@@ -559,10 +556,6 @@ small {
     font-size: 1.1em;
   }
 
-  .new-almond {
-    position: relative;
-  }
-
   .matcha h3 {
     position: absolute;
     bottom: -11em;
@@ -571,8 +564,7 @@ small {
   }
 
   .sets figure {
-    height: 43em;
-    padding: 0 3em 5em;
+    height: 33em;
   }
 
   .hours dl {
@@ -594,5 +586,17 @@ small {
   .hrs dd {
     margin: 0 20em 0 6em;
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .sets figure {
+    height: 50em;
   }
 }
