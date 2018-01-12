@@ -426,7 +426,8 @@ small {
 @media only screen and (min-width: 38em) {
 
   html {
-  font: normal 110%/1.4 Georgia, serif;
+  font-size: 110%;
+  line-height: 1.4;
   }
 
   header li {
@@ -495,7 +496,7 @@ small {
   }
 
   .locations {
-    width: 70%
+    width: 70%;
     margin: 0;
   }
 
@@ -523,7 +524,8 @@ small {
 @media only screen and (min-width: 60em) {
 
   html {
-    font: normal 120%/1.5 Goergia, serif;
+    font-size: 120%;
+    line-height: 1.5;
     vertical-align: middle;
   }
 
